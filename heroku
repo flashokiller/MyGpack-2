@@ -98,6 +98,7 @@ _startbot () {
     cd "USERGE-X"
     git init > /dev/null 2>&1
     echo -e ">><< --- >><<  Starting [X]  >><< --- >><<\n" | indent
+    pip3 install -r requirements.txt
     bash run
 }
 
